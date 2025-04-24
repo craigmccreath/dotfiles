@@ -15,6 +15,9 @@ brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'stripe/stripe-cli/stripe'
 brew 'svn' # Needed to install fonts
+brew 'caddy'
+brew 'mysql-client'
+brew 'pandoc'
 
 # Development
 brew 'imagemagick'
@@ -29,14 +32,16 @@ cask 'firefox'
 cask 'google-chrome'
 cask 'httpie'
 cask 'imageoptim'
-cask 'loom'
-cask 'pastebot'
-cask 'reflex'
-cask 'screen-studio'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
-cask 'transmit'
 cask 'visual-studio-code'
+cask 'cursor'
+cask 'deskpad'
+cask 'hyprnote'
+cask 'jordanbaird-ice'
+cask 'keycastr'
+cask 'raycast'
+cask 'stats'
 
 # Quicklook
 cask 'qlmarkdown'
@@ -53,3 +58,7 @@ cask 'font-source-serif-pro'
 
 # Mac App Store
 mas 'Things', id: 904280696
+mas 'Bitwarden', id: 1352778147
+mas 'Drafts', id: 1435957248
+mas 'Transmit', id: 1436522307
+mas 'Sequel Ace', id: 1518036000
